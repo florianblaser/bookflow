@@ -1,0 +1,67 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="PrimaryID" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="PrimaryID" opf:scheme="ISBN">9788439731764</dc:identifier>
+    <dc:title>Cien años de soledad</dc:title>
+    <dc:creator opf:file-as="Gabriel García Márquez" opf:role="aut">Gabriel García Márquez</dc:creator>
+    <dc:language>es</dc:language>
+    <dc:publisher>LITERATURA RANDOM HOUSE</dc:publisher>
+    <dc:source>Random House Mondadori</dc:source>
+    <dc:date opf:event="ops-publication">2012-03-01</dc:date>
+    <dc:date opf:event="modification">2015-11-27</dc:date>
+    <meta content="0.8.6" name="Sigil version"/>
+  <description xmlns="http://purl.org/dc/elements/1.1/">&lt;p style="text-align:center"&gt;&lt;B&gt;Señalada como «catedral gótica del lenguaje», este clásico del siglo  XX es el enorme y espléndido tapiz de la saga de la familia Buendía, en la mítica aldea de Macondo.&lt;/B&gt;&lt;/P&gt; &lt;p style="text-align:center"&gt;&lt;/P&gt; &lt;p style="text-align:center"&gt;&lt;B&gt;Un referente imprescindible de la vida y la narrativa latinoamericana.&lt;/B&gt;&lt;/P&gt; &lt;p style="text-align:center"&gt;&lt;I&gt;«Muchos años después, frente al pelotón de fusilamiento, el coronel  Aureliano Buendía había de recordar aquella tarde remota en que su padre  lo llevó a conocer el hielo. Macondo era entonces una aldea de veinte  casas de barro y cañabrava construidas a la orilla de un río de aguas  diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y  enormes como huevos prehistóricos. El mundo era tan reciente, que muchas  cosas carecían de nombre, y para mencionarlas había que señalarlas con el dedo.»&lt;/I&gt;&lt;/P&gt; &lt;P&gt;Con estas palabras empieza la novela ya legendaria en los anales de la  literatura universal, una de las aventuras literarias más fascinantes de nuestro siglo. Millones de ejemplares de &lt;I&gt;Cien años de soledad&lt;/I&gt;  leídos en todas las lenguas y el Premio Nobel de Literatura coronando  una obra que se había abierto paso «boca a boca» -como gusta decir al  escritor- son la más palpable demostración de que la aventura fabulosa  de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones,  tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas,  representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero.&lt;/P&gt; &lt;P&gt;&lt;B&gt;Pablo Neruda dijo...&lt;/B&gt;&lt;/P&gt; &lt;P&gt;«El Quijote de nuestro tiempo.»&lt;/P&gt;</description>
+</metadata>
+  <manifest>
+    <!-- Content Documents -->
+    <item href="Text/portada.htm" id="id_portada" media-type="application/xhtml+xml"/>
+    <item href="Text/portadilla.htm" id="id_portadilla" media-type="application/xhtml+xml"/>
+    <item href="Text/ncl_indice.htm" id="id_ncl_indice" media-type="application/xhtml+xml"/>
+    <item href="Text/0006_0000.htm" id="id_0006_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/Cien_anos_de_soledad_0001_0000.htm" id="id_Cien_anos_de_soledad_0001_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/0002_0000.htm" id="id_0002_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/0003_0000.htm" id="id_0003_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/0004_0000.htm" id="id_0004_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/0005_0000.htm" id="id_0005_0000" media-type="application/xhtml+xml"/>
+    <item href="Text/bio.htm" id="id_bio" media-type="application/xhtml+xml"/>
+    <item href="Text/legal.htm" id="id_legal" media-type="application/xhtml+xml"/>
+    <!-- CSS Style Sheets -->
+    <item href="Styles/global.css" id="global-css" media-type="text/css"/>
+    <!-- Images -->
+    <!--
+                                <item id="id_5" href="images/Logo.jpg" media-type="image/jpeg"/>
+                                <item id="id_4" href="images/sellos_RHM.jpg" media-type="image/jpeg"/>
+      
+                <item id="id_3" href="images/logo_RHM.jpg" media-type="image/jpeg"/>
+      
+                <item id="id_2" href="images/imagen_portadilla_001.jpg" media-type="image/jpeg"/>
+      
+                <item id="id_1" href="images/cover.jpg" media-type="image/jpeg"/>
+
+                  <item id="id_4" href="images/Logo.jpg" media-type="image/jpeg"/>
+
+                -->
+    <!-- NCX -->
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <!-- Otros -->
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Images/sello.jpg" id="sello.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id_portada" linear="yes"/>
+    <itemref idref="id_portadilla" linear="yes"/>
+    <itemref idref="id_0006_0000" linear="yes"/>
+    <itemref idref="id_Cien_anos_de_soledad_0001_0000" linear="yes"/>
+    <itemref idref="id_0002_0000" linear="yes"/>
+    <itemref idref="id_0003_0000" linear="yes"/>
+    <itemref idref="id_0004_0000" linear="yes"/>
+    <itemref idref="id_0005_0000" linear="yes"/>
+    <itemref idref="id_bio" linear="yes"/>
+    <itemref idref="id_legal" linear="yes"/>
+    <itemref idref="id_ncl_indice" linear="yes"/>
+  </spine>
+  <guide>
+    <reference href="Text/portada.htm" title="start" type="start"/>
+    <reference href="Text/portada.htm" title="Portada" type="cover"/>
+    <reference href="Text/ncl_indice.htm" title="Table of Contents" type="toc"/>
+  </guide>
+</package>

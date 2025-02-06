@@ -1,0 +1,777 @@
+/* ESTILOS GENERALES */
+
+body {
+	padding: 0em 15px 0em 15px;
+	/*MARCA DE AGUA
+	background-image: url(../images/marca_agua.jpg);
+	background-repeat: repeat-y;
+	background-position: center;*/
+}
+
+/* ESTILOS DE TEXTO */
+
+.nostyle {
+
+	color: #FF0000;
+}
+
+i, em {
+	font-style: italic;
+
+}
+
+b, strong {
+	font-weight: bold;
+
+}
+
+u {
+	font-family: serif;
+
+}
+
+s {
+	font-family: serif;
+
+}
+
+
+
+a {
+	text-decoration: none;
+
+}
+
+.linethrough {
+
+	text-decoration: line-through;
+
+}
+
+.underline {
+
+	text-decoration: underline;
+
+}
+
+
+.color {
+	color: #0000FF;
+
+}
+
+.smallcaps {
+	font-size: 75%;
+	line-height: 1.5
+
+}
+
+.initial {
+	float: left;
+	font-size: 70px;
+	line-height: 50px;
+	padding-top: 1px;
+	margin-top: -.01em;
+	margin-right: .09em;
+}
+
+.sans {
+	font-family: sans-serif;
+	font-size: 85%;	
+	line-height:1.470;
+	
+}
+
+sup {
+	font-size: 0.875em;
+	line-height: 0em;
+	vertical-align: 4px;
+}
+
+
+sub {
+	font-size: 0.875em;
+	line-height: 0em;
+}
+
+
+/* ESTILOS DE TITULO */
+
+h1 {
+	font-family: serif;
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 1.25em;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	page-break-after: always;
+}
+
+h3 {
+	font-family: serif;
+	font-size: 1.125em;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+h4 {
+	font-family: serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+h5 {
+	font-family: serif;
+	font-size: 1em;
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+h6 {
+	font-family: serif;
+	font-size: 1em;
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 0em;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+}
+
+/* ESTILOS DE PARRAFO */
+
+p {
+	margin: 0em;
+	padding: 0em;
+	text-align: justify;
+	font-family: serif;
+	font-size: 0.875em;
+	line-height:1.5em;
+	text-indent: 1em;
+	widows:2;
+   	orphans:1;
+}
+
+.noindent {
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.875em;
+	line-height:1.5em;
+	text-indent: 0em;
+	
+}
+
+.left {
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: left;
+	font-size: 0.875em;
+	line-height:1.5em;
+	text-indent: 1em;
+	
+}
+
+.right {
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: right;
+	font-size: 0.875em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.center {
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.875em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentleft1 {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.indentleft1-big {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.875em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.indentleft1-noindent {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentleft1-center {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentleft1-right {
+	margin: 0em 0em 0em 1em;
+	padding: 0em;
+	text-align: right;
+	font-size: 0.75em;
+	line-height:1.5em;
+	text-indent: 0em;
+	
+}
+
+.indentleft2 {
+	margin: 0em 0em 0em 2em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.indentleft2-noindent {
+	margin: 0em 0em 0em 2em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentleft2-center {
+	margin: 0em 0em 0em 2em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentleft2-right {
+	margin: 0em 0em 0em 2em;
+	padding: 0em;
+	text-align: right;
+	font-size: 0.75em;
+	line-height:1.5em;
+	text-indent: 0em;
+	
+}
+
+
+.indentboth1 {
+	margin: 0em 1em 0em 1em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.indentboth1-noindent {
+	margin: 0em 1em 0em 1em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+
+.indentboth1-center {
+	margin: 0em 1em 0em 1em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentboth1-right {
+	margin: 0em 1em 0em 1em;
+	padding: 0em;
+	text-align: right;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentboth2 {
+	margin: 0em 2em 0em 2em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 1em;
+	
+}
+
+.indentboth2-noindent {
+	margin: 0em 2em 0em 2em;
+	padding: 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+
+.indentboth2-center {
+	margin: 0em 2em 0em 2em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.indentboth2-right {
+	margin: 0em 2em 0em 2em;
+	padding: 0em;
+	text-align: right;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+	
+}
+
+.frenchindent {
+	
+	margin: 0em 0em 0em 1em;
+	padding: 0em 0em 0em 0em;
+	text-align: justify;
+	font-size: 0.75em;
+	line-height: 1.5;
+	text-indent: -1em;
+
+}
+
+.frenchindent-big {
+	
+	margin: 0em 0em 0em 1em;
+	padding: 0em 0em 0em 0em;
+	text-align: justify;
+	font-size: 0.875em;
+	line-height: 1.5;
+	text-indent: -1em;
+
+}
+
+
+.shortpoem {
+
+	font-size: 0.75em;
+	text-align: left;
+	margin: 0em 0em 0em 2em;
+	text-indent: 0em;
+
+}
+
+
+.longpoem {
+
+	font-size: 0.75em;
+	text-align: left;
+	margin:0em 0em 0em 1em;
+	text-indent: 0em;
+
+}
+
+.asterisk {
+	
+	margin: 0.2em 0em 0em 0em;
+	padding: 0em;
+	text-align: center;
+	font-size: 0.875em;
+	line-height:1.5;
+	text-indent: 0em;
+
+}
+
+.imagefoot {
+
+	font-size: 0.75em;
+	text-align: center;
+	margin: 0em 0em 0em 0em;
+	line-height:1.5;
+	text-indent: 0em;
+}
+
+.footnote {
+
+	font-size: 0.75em;
+	text-align: justify;
+	margin: 0em 0em 0em 0em;
+	line-height:1.5;
+	text-indent: 1em;
+}
+
+.border-topbottom  {
+
+                border-top: 1px solid #000000;
+
+		border-bottom: 1px solid #000000;
+
+                margin: 0;
+
+                padding: 1em;
+
+}
+
+
+.border-sides  {
+
+                border-left: 1px solid #000000;
+
+		border-right: 1px solid #000000;
+
+                margin: 0;
+
+                padding: 1em;
+
+}
+
+.border  {
+
+                border: 1px solid #000000;
+
+                margin: 0;
+
+                padding: 1em;
+
+}
+
+#QUOTE {
+
+	text-align: right;
+	margin: 0em 0em 0em 50%;
+	padding: 4em 0em 0em 0em;
+
+}
+
+#QUOTE-INSIDE {
+
+	text-align: right;
+	margin: 0em 0em 0em 50%;
+	padding: 0em 0em 0em 0em;
+
+}
+
+.quote {
+
+	font-size: 0.75em;
+	line-height:1.5;
+	text-align: justify;
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-indent: 1em;
+
+}
+
+.quote-noindent {
+
+	font-size: 0.75em;
+	line-height:1.5;
+	text-align: justify;
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-indent: 0em;
+
+}
+
+.quote-sign {
+
+	font-size: 0.75em;
+	line-height:1.5em;
+	text-align: right;
+	margin: 0em 1em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-indent: 0em;
+
+}
+
+#DEDICATION {
+	text-align: right;
+	margin: 4em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+}
+
+.dedication {
+	font-size: 0.75em;
+	line-height:1.5;
+	text-align: right;
+	margin: 0em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-indent: 0em;
+}
+
+#SPECIAL {
+
+	text-align: center;
+	margin: 0em 4em 0em 4em;
+	padding: 4em 0em 0em 0em;
+
+}
+
+
+/* ESTILOS DE IMAGEN Y ESPECIALES */
+
+.image {
+
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.image img {
+
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+img {
+	/*width: 100%;*/
+	margin: 0em;
+	padding: 0em;
+
+}
+
+#IMAGE-INITIAL {
+
+	font-size: 1em;
+	/*width: 5em;*/
+	float: left;
+	margin: 0em 1em 0em 0em;
+
+}
+
+/* LINEAS BLANCAS Y SALTO DE PAGINA */
+
+.white1 {
+	font-family: serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	margin-top: 1.3125em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding: 0em;
+
+}
+
+.white2 {
+	font-family: serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	margin-top: 2.625em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding: 0em;
+
+}
+
+.white3 {
+	font-family: serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	margin-top: 3.9375em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding: 0em;
+
+}
+
+.white4 {
+	font-family: serif;
+	font-size: 0.875em;
+	font-weight: normal;
+	margin-top: 5.25em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	padding: 0em;
+
+}
+
+.page-break-style {
+	page-break-before: always
+
+}
+
+/*PAGINA LEGAL Y CORPORATIVA */
+
+.copyright {
+
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: left;
+	font-family: serif;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+
+}
+
+.disclaimer {
+
+	margin: 0em 0em 0em 0em;
+	padding: 0em;
+	text-align: left;
+	font-family: serif;
+	font-size: 0.625em;
+	line-height:1.5;
+	text-indent: 0em;
+
+}
+
+.corp {
+
+	margin: 0em 0em 1em 0em;
+	padding: 0em;
+	text-align: justify;
+	font-family: serif;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+
+}
+
+.corp_center {
+
+	margin: 0em 0em 2em 0em;
+	padding: 0em;
+	text-align: center;
+	font-family: serif;
+	font-size: 0.75em;
+	line-height:1.5;
+	text-indent: 0em;
+
+}
+
+.orderedlist {
+
+        margin: 0em 0em 0em 2em;
+        padding: 0em 0em 0em 0em;
+        text-align: justify;
+        font-size: 0.875em;
+	line-height:1.25;
+	text-indent: -1.2em;
+
+}
+
+ 
+
+ 
+
+.orderedlist2 {
+
+
+        margin: 0em 0em 0em 4em;
+	padding: 0em 0em 0em 0em;
+	text-align: justify;
+	font-size: 0.875em;
+	line-height:1.25;
+	text-indent: -1.2em; 
+
+}
+
+
+/* FUENTES ADICIONALES */
+
+/*
+
+@font-face {
+font-family: "fontname";
+src: url(fontname.ttf) format("truetype");
+}
+
+*/
