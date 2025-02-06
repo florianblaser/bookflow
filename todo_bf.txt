@@ -1,0 +1,3 @@
+- Total changes made across all files: 157
+- use still better way to define hard words
+- vocabulary per chapter to learn flash cards before readings

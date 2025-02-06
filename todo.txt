@@ -1,3 +1,0 @@
-- use better way to define hard words
-- store dictionary of words to be efficient about requests
-- 
